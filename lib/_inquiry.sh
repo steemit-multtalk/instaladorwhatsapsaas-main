@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do Whaticket que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link do GITHUB do Mult talk que deseja instalar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -203,12 +203,12 @@ inquiry_options() {
   print_banner
   printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador STEEMIT, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [0] Instalar whaticket\n"
-  printf "   [1] Atualizar whaticket\n"
-  printf "   [2] Deletar Whaticket\n"
-  printf "   [3] Bloquear Whaticket\n"
-  printf "   [4] Desbloquear Whaticket\n"
-  printf "   [5] Alter. dominio Whaticket\n"
+  printf "   [0] Instalar Mult talk\n"
+  printf "   [1] Atualizar Mult talk\n"
+  printf "   [2] Deletar Mult talk\n"
+  printf "   [3] Bloquear Mult talk\n"
+  printf "   [4] Desbloquear Mult talk\n"
+  printf "   [5] Alter. dominio Mult talk\n"
   printf "\n"
   read -p "> " option
 
