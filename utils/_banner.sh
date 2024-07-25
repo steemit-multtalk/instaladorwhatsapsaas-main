@@ -2,16 +2,15 @@
 #
 # Print banner art.
 
+# Define ANSI color codes
+PURPLE="\033[1;35m"
+NC="\033[0m"
+
 #######################################
-# Print a board. 
+# Print a banner.
 # Globals:
-#   BG_BROWN
 #   NC
-#   WHITE
-#   CYAN_LIGHT
-#   RED
-#   GREEN
-#   YELLOW
+#   PURPLE
 # Arguments:
 #   None
 #######################################
@@ -21,20 +20,18 @@ print_banner() {
 
   printf "\n\n"
 
-
-  
-printf "${GREEN}"; 
-printf "${GREEN}"; 
-printf " _______  _______  _______  _______  __   __  ___   _______ n";
-printf "|       ||       ||       ||       ||  |_|  ||   | |       |n";
-printf "|  _____||_     _||    ___||    ___||       ||   | |_     _|n";
-printf "| |_____   |   |  |   |___ |   |___ |       ||   |   |   |  n";
-printf "|_____  |  |   |  |    ___||    ___||       ||   |   |   |  n";
-printf " _____| |  |   |  |   |___ |   |___ | ||_|| ||   |   |   |  n";
-printf "|_______|  |___|  |_______||_______||_|   |_||___|   |___|  n";
-printf "${NC}";
-printf "${NC}";                                                                
-  
+  # Novo banner em ASCII com cor ajustada para roxo
+  printf "${PURPLE}"
+  printf " █████╗ ██╗     ███████╗ █████╗ ███████╗\n"
+  printf "██╔══██╗██║     ██╔════╝██╔══██╗██╔════╝\n"
+  printf "███████║██║     █████╗  ███████║███████╗\n"
+  printf "██╔══██║██║     ██╔══╝  ██╔══██║╚════██║\n"
+  printf "██║  ██║███████╗██║     ██║  ██║███████║\n"
+  printf "╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚══════╝\n"
+  printf "${NC}"
 
   printf "\n"
 }
+
+# Chama a função para imprimir o banner
+print_banner
