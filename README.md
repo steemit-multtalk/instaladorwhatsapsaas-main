@@ -6,5 +6,5 @@ sudo apt install -y git && git clone https://github.com/steemit-multtalk/instala
 
 ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
 ```bash
-sudo apt install -y git && git clone https://github.com/steemit-multtalk/instaladorwhatsapsaas-main && sudo chmod -R 777 instaladorwhatsapsaas-main && cd instaladorwhatsapsaas-main && sudo ./install_instancia
+sudo ./install_instancia
 ```
